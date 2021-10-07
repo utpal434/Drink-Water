@@ -1,0 +1,87 @@
+body {
+  background-color: rgba(0, 116, 224, 0.774);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  overflow: hidden;
+  margin: 0;
+}
+
+h1{
+    margin: 5px 0 0;
+}
+h3{
+    margin:  10px 0;
+}
+
+.glass {
+  background-color: #fff;
+  height: 350px;
+  width: 150px;
+  border: rgb(0, 70, 117) solid 4px;
+  border-radius: 0px 0px 30px 30px;
+  margin: 30px 0;
+  position: relative;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.percentage {
+  background-color: rgb(100, 172, 240);
+  color: rgb(0, 24, 39);
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 30px;
+  transition: 0.3s ease;
+  font-weight: bold;
+}
+
+.cups {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  max-width: 300px;
+  
+}
+.glass-small {
+  width: 45px;
+  border-radius: 0 0 15px 15px;
+  height: 85px;
+  color: rgba(14, 124, 226, 0.747);
+  margin: 5px;
+  font-size: 14px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.glass-small.active{
+    background-color:rgb(90, 183, 245);
+    color: #fff;
+}
+
+.remained{
+  color: rgba(0, 116, 224, 0.774);
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+  height: 100%;
+  transition: 0.3s ease;
+  
+}
+
+
+#liters{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.remained small{
+  font-size:12px;
+}
